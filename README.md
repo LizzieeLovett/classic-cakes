@@ -1,45 +1,56 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Classic Cakes
 
-Welcome USER_NAME,
+## Cake Shop
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+A website for a small local cake shop owner based in Northamptonshire.
+The website features a home page with information about the shop and testimonials, a gallery of prior work, a page to enquire about baking lessons including video examples 
+and a contact page with location details and a form for general enquiries.
+For this website, the primary goal is to persuade potential customers to make contact with the shop via the lessons or contact page.
 
-## Gitpod Reminders
+This website tries to allow the potential customer to find all the information that they need to make a decision to visit the shop by breaking the information into relevant 
+pages and making it clear and easy to contact the shop in a number of ways.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The business goals of this website are:
+* To build brand awareness.
+* To provide high quality examples of the shop’s range and style
+* To drive sales through; lesson enquiries which will lead to a booking call with the owner, contact page enquiries which would lead to customers visiting the shop to make a purchase or requesting a custom cake for a specific event.
+* To provide distinguished UX to encourage potential clients to visit the store and to keep them using the site long enough to complete one of the forms.
 
-`python3 -m http.server`
+The customer goals of this website are:
+* To find delicious, beautiful cakes for events, a special treat or just to satisfy a sweet tooth.
+* To easily find the types of cake on offer.
+* To intuitively navigate to the lessons page and fill out the enquiry form to improve baking skills.
+* To intuitively navigate to the contact page to find the store location.
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+#### Ideal client
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+##### The ideal client for this business is:
+* Living in Northamptonshire.
+* Someone who regularly throws catered events.
+* A cake lover.
+* Engaged to be married.
 
-A blue button should appear to click: *Make Public*,
+##### Visitors to this website are searching for:
+* A business to design and create a beautiful wedding cake for their special day.
+* A birthday cake for a family member.
+* Cupcake trays for special events or parties.
+* Lessons to help improve their baking skills.
 
-Another blue button should appear to click: *Open Browser*.
+##### This project is the best way to help them achieve these things because:
+* Most local cake shop websites have extremely poor UX.
+* Other local cake shop websites contain far too much content and therefore produce information overload quickly.
+* This website is:
+   * Intuitive and easy to navigate.
+   * Able to guides the client through all the relevant information in a way that is easy to understand.
+   * Able to guide them to the goal of the website - to fill out either the lessons or contact form.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+##### Client stories
+1. As a new visitor to the website, I want to easily navigate around the site to find what I’m looking for as quickly as possible.
+2. As a new visitor to the website, I want to view a gallery of prior work to decide if I like the style for myself.
+3. As a new visitor to the website, I want to see whether other customers have liked the cakes they purchased and the related service received.
+4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to learn and pay.
+5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
+6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
+7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
