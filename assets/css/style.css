@@ -1,5 +1,9 @@
 /* ---------------------------Colors--------------------------- */
 
+body {
+    background-color: #caadbd;
+}
+
 /* ---------------------------Header--------------------------- */
 
 header {
@@ -10,10 +14,22 @@ ul {
     margin: 0;
 }
 
+#header-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #fff;
+    min-height: 75px;
+}
+
 .nav-menu-item {
     margin: 0;
-    width: 80px;
-    padding: 16px 0;
+    width: 75px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -22,5 +38,27 @@ ul {
   }
 }
 
+.logo {
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50px;
+    position: fixed;
+    width: 300px;
+    margin: 10px 10px 10px 20px;
+}
+
+.logo-link {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menucontainer {
+    float: right;
+    padding-right: 15px;
+}
 
 /* ---------------------------Footer--------------------------- */
