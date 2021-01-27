@@ -15,7 +15,7 @@ a:link,
 a:visited,
 a:active { 
     text-decoration : none;
-    color : #4d0f3d; 
+    color : #4d0f3d;
 }
 
 a span:hover { 
@@ -23,13 +23,13 @@ a span:hover {
     color : #ae5999; 
 }
 
-/* ---------------------------Header--------------------------- */
-
-header {
+ul {
     margin: 0;
 }
 
-ul {
+/* ---------------------------Header--------------------------- */
+
+header {
     margin: 0;
 }
 
@@ -47,10 +47,6 @@ ul {
     padding-bottom: 16px;
 }
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
 .logo {
     font-family: "Pacifico", cursive;
     position: absolute;
@@ -59,14 +55,7 @@ ul {
     color: #4d0f3d;
 }
 
-.logo-link {
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.menucontainer {
+.menu-container {
     float: right;
     padding-right: 15px;
 }
@@ -88,6 +77,15 @@ ul {
 .dropdown .btn:focus {
     color: #fff;
     background-color: #ae5999;
+    border-color: #fff;
+}
+
+#dropdown-item-home:hover,
+#dropdown-item-gallery:hover,
+#dropdown-item-lessons:hover,
+#dropdown-item-contact:hover {
+    color: #fff;
+    background-color:#ae5999;
     border-color: #fff;
 }
 
