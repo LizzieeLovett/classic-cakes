@@ -10,17 +10,8 @@ body {
 
 /* ---------------------------General--------------------------- */
 
-a,
-a:link,
-a:visited,
-a:active { 
-    text-decoration : none;
-    color : #4d0f3d;
-}
-
-a span:hover { 
-    text-decoration : none;
-    color : #ae5999; 
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -47,6 +38,19 @@ header {
     padding-bottom: 16px;
 }
 
+.header-anchor,
+.header-anchor:link,
+.header-anchor:visited,
+.header-anchor:active { 
+    text-decoration : none;
+    color : #4d0f3d;
+}
+
+.header-anchor span:hover { 
+    text-decoration : none;
+    color : #ae5999; 
+}
+
 .logo {
     font-family: "Pacifico", cursive;
     position: absolute;
@@ -58,12 +62,14 @@ header {
 .menu-container {
     float: right;
     padding-right: 15px;
+    margin-top: 10px;
 }
 
 .dropdown-container {
     width: 60px;
     margin-left: auto;
-    margin-right: 5%;
+    margin-right: 0;
+    margin-top: 12px;
 }
 
 .dropdown .btn-secondary {
@@ -107,7 +113,71 @@ footer {
 #footer-row {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #fff;
+    color: fff;
+    background-color: #4d0f3d;
     min-height: 75px;
 }
 
+.footer-column {
+    margin: auto;
+}
+
+.footer-column-1 {
+    padding-left: 60px;
+    text-align: left;
+}
+
+.footer-column-1-item {
+    display: inline;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 120%;
+}
+
+.footer-column-2 {
+    text-align: center;
+    padding: 0;
+}
+
+.footer-column-2-item {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.footer-column-3 {
+    padding-right: 60px;
+    text-align: right;
+}
+
+.footer-column-3-item {
+    display: inline;
+    vertical-align: middle;
+    padding-right: 40px;
+    font-size: 120%;
+}
+
+.footer-icon {
+    font-size: 220%;
+}
+
+.footer-anchor,
+.footer-anchor:link,
+.footer-anchor:visited,
+.footer-anchor:active { 
+    text-decoration : none;
+    color : #fff;
+}
+
+.footer-anchor:hover { 
+    text-decoration : none;
+    color : #dfcdd8; 
+}
+
+@media screen and (max-width: 767px) {
+  .footer-column-1-item {
+    display: none;
+  }
+  .footer-column-3-item {
+    display: none;
+  }
+}
