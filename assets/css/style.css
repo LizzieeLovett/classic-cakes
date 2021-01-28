@@ -181,3 +181,29 @@ footer {
     display: none;
   }
 }
+
+/* ---------------------------index.html--------------------------- */
+
+#hero-row div {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-item {
+    height: 33%;
+}
+
+.hero-image-cover {
+    background-color: #caadbd;
+}
+
+.hero-image-cover img {
+   object-fit: cover;
+   opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  hero-image {
+      display: none;
+  }
+}
