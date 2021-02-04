@@ -206,7 +206,7 @@ footer {
     width: 75%;
     background-color: rgb(77, 15, 61, 0.4);
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px !important;
@@ -215,8 +215,8 @@ footer {
 
 .main-heading {
     text-align: center;
-    padding: 40px 5px 0;
-    font-size: 2.5rem;
+    padding: 40px 10px 0;
+    font-size: 40px;
     letter-spacing: 4px;
     font-family: "Montserrat", sans-serif;
 }
@@ -237,8 +237,62 @@ footer {
     font-size: 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .hero-image {
+#main-lessons-box {
+    width: 30%;
+    background-color: rgb(159, 181, 152, 0.9);
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    border-radius: 10%;
+}
+
+.main-lessons {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 17px;
+    margin: 0;
+    padding: 30px 35px 30px !important;
+}
+
+#lessons-anchor {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+.lessons-tag {
+    margin-top: 20px;
+}
+
+#lessons-anchor,
+#lessons-anchor:link,
+#lessons-anchor:visited,
+#lessons-anchor:active { 
+    text-decoration : none;
+    color : #fff;
+}
+
+#lessons-anchor:hover { 
+    text-decoration : none;
+    color : #ae5999; 
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-image-cover {
       display: none;
   }
+}
+
+@media screen and (min-width: 1200px) {
+    #main-heading-box {
+        width: 500px;
+        margin-left: 60px;
+    }
+    #secondary-heading-box {
+        width: 70%;
+    }
+    .main-heading {
+        padding: 40px 40px 0;
+    }
 }
