@@ -203,10 +203,10 @@ footer {
 }
 
 #main-heading-box {
-    width: 75%;
+    width: 80%;
     background-color: rgb(77, 15, 61, 0.4);
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px !important;
@@ -216,13 +216,13 @@ footer {
 .main-heading {
     text-align: center;
     padding: 40px 10px 0;
-    font-size: 40px;
-    letter-spacing: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
     font-family: "Montserrat", sans-serif;
 }
 
 #secondary-heading-box {
-    width: 80%;
+    width: 90%;
     background-color: rgb(77, 15, 61, 0.4);
     margin-top: 30px;
     margin-left: auto;
@@ -237,32 +237,36 @@ footer {
     font-size: 15px;
 }
 
+#customer-review-heading {
+    padding: 0 10px 20px;
+}
+
 #main-lessons-box {
-    width: 30%;
+    width: 250px;
     background-color: rgb(159, 181, 152, 0.9);
-    margin-top: auto;
+    margin-top: 10px;
     margin-left: auto;
-    margin-bottom: 5%;
-    margin-right: 10%;
+    margin-right: auto;
+    margin-bottom: 40px;
     border-radius: 10%;
 }
 
 .main-lessons {
     text-align: center;
     letter-spacing: 1px;
-    font-size: 17px;
+    font-size: 15px;
     margin: 0;
-    padding: 30px 35px 30px !important;
+    padding: 10px 20px 10px !important;
 }
 
 #lessons-anchor {
     margin: 0;
     font-family: "Pacifico", cursive;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .lessons-tag {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #lessons-anchor,
@@ -278,21 +282,63 @@ footer {
     color : #ae5999; 
 }
 
-@media screen and (max-width: 1200px) {
+.cake-type-row {
+    background-color: #fff
+}
+
+.cake-type {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    margin: 15px auto 15px;
+    border-color: rgb(159, 181, 152, 0.8);
+}
+
+#cake-type-wedding-background {
+    background: url("../images/wedding-cake-1.jpg") no-repeat center center;
+    background-color: #cccccc;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#cake-type-birthday-background {
+    background: url("../images/birthday-cake-3.jpg") no-repeat center center;
+    background-color: #cccccc;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#cake-type-cupcake-background {
+    background: url("../images/cupcakes-2.jpg") no-repeat center center;
+    background-color: #cccccc;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
   .hero-image-cover {
+      display: none;
+  }
+  #customer-review-heading {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #main-lessons-box {
       display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
-    #main-heading-box {
-        width: 500px;
-        margin-left: 60px;
-    }
-    #secondary-heading-box {
-        width: 70%;
-    }
-    .main-heading {
-        padding: 40px 40px 0;
-    }
+  .main-heading {
+      font-size: 30px;
+      letter-spacing: 4px;
+  }
+  .secondary-heading {
+      font-size: 18px;
+  }
 }
