@@ -198,11 +198,24 @@ footer {
 
 .hero-image-cover {
     background-color: #9024504d;
+    overflow:hidden;
 }
 
 .hero-image-cover img {
    object-fit: cover;
-   opacity: 0.8;
+   opacity: 0.7;
+   animation-name:hero-image-zoom;
+   animation-duration:7s;
+   animation-fill-mode:forwards;
+}
+
+@keyframes hero-image-zoom {
+  from{
+    transform:scale(1);
+  }
+  to {
+    transform:scale(1.1);
+  }
 }
 
 #main-heading-box {
