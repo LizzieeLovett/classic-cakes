@@ -434,3 +434,30 @@ footer {
     width: 100%;
     border-radius: 50%;
 }
+
+/* ---------------------------lessons.html--------------------------- */
+
+#lessons-row {
+    background-color: #9024504d;
+}
+
+#lessons-row div {
+    padding: 0;
+    text-align: center;
+}
+
+.lessons-item {
+    margin: 0;
+}
+
+.lessons-video-cover {
+    background-color: #9024504d;
+    overflow:hidden;
+    max-height: 690px;
+}
+
+.lessons-video-cover video {
+   object-fit: cover;
+   opacity: 0.7;
+   max-height: 690px;
+}
