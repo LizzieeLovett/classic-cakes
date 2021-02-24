@@ -17,6 +17,68 @@ ul {
     margin: 0;
 }
 
+#main-heading-box {
+    width: 80%;
+    background-color: rgb(255 255 255 / 50%);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px !important;
+    border-radius: 10%;
+}
+
+.main-heading {
+    color:  #a94b50;
+    text-align: center;
+    padding: 40px 10px 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+#secondary-heading-box {
+    width: 90%;
+    background-color: rgb(211 129 131 / 66%);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+.secondary-heading {
+    text-align: center;
+    padding: 20px 10px 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+#main-lessons-box {
+    width: 250px;
+    background-color: rgb(159, 181, 152, 0.9);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 10%;
+}
+
+.main-lessons {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 20px 10px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-heading {
+      font-size: 23px;
+      padding: 40px 20px 0;
+  }
+}
+
 /* ---------------------------Header--------------------------- */
 
 header {
@@ -223,62 +285,8 @@ footer {
   }
 }
 
-#main-heading-box {
-    width: 80%;
-    background-color: rgb(255 255 255 / 50%);
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px !important;
-    border-radius: 10%;
-}
-
-.main-heading {
-    color:  #a94b50;
-    text-align: center;
-    padding: 40px 10px 0;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-family: "Montserrat", sans-serif;
-}
-
-#secondary-heading-box {
-    width: 90%;
-    background-color: rgb(211 129 131 / 66%);
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10%;
-}
-
-.secondary-heading {
-    text-align: center;
-    padding: 20px 10px 20px;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
 #customer-review-heading {
     padding: 0 10px 20px;
-}
-
-#main-lessons-box {
-    width: 250px;
-    background-color: rgb(159, 181, 152, 0.9);
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    border-radius: 10%;
-}
-
-.main-lessons {
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 15px;
-    margin: 0;
-    padding: 10px 20px 10px !important;
 }
 
 #lessons-anchor {
@@ -289,6 +297,7 @@ footer {
 
 .lessons-tag {
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #lessons-anchor,
@@ -462,24 +471,36 @@ footer {
     margin: 0;
 }
 
-.lessons-video-cover {
-    background-color: rgb(211 129 131 / 50%);
-    overflow:hidden;
+.lessons-register {
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
 }
 
-.lessons-video-cover video {
+#lessons-video-cover {
+    background-color: rgb(211 129 131 / 50%);
+    overflow: hidden;
+}
+
+#lessons-video-cover video {
    object-fit: cover;
    opacity: 0.7;
-   max-height: 70vh;
    position: relative;
    float: right;
    margin-right: -140px;
+   max-height: 550px;
 }
 
-@media screen and (min-width: 1400px) {
-  .lessons-video-cover video {
+@media screen and (min-width: 1200px) {
+  #lessons-video-cover video {
    margin-right: 0;
-   max-height: 80vh;
+   margin-top: -100px;
+   max-height: 800px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  #lessons-video-cover video {
+   display: none;
 }
 }
 
