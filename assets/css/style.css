@@ -15,7 +15,7 @@ a {
 form {
     color: #a94b50;
     text-align: left;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
 
 .form-group {
@@ -505,6 +505,17 @@ footer {
     width: 80%;
     margin: 60px auto;
     text-align: center;
+}
+
+.lessons-form-heading {
+    color: #a94b50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lessons-form-container {
+    max-width: 600px;
+    padding: 0;
 }
 
 @media screen and (min-width: 1200px) {
