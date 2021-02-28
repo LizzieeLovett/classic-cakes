@@ -13,9 +13,40 @@ a {
 }
 
 form {
-    color: #a94b50;
+    color: rgb(211 129 131 / 100%);
     text-align: left;
     margin-bottom: 120px;
+}
+
+.form-control, 
+.form-select {
+    color: #fff;
+    background-color: rgb(211 129 131 / 50%);
+    border: 1px solid rgba(162, 178, 153, 0.8);
+}
+
+.form-control:focus,
+.form-select:focus {
+    color: #fff;
+    background-color: rgb(211 129 131 / 50%);
+    border-color: rgba(162, 178, 153, 1);
+    box-shadow: 0 0 0 0.25rem rgba(162, 178, 153, 0.5);
+}
+
+form .form-control::-webkit-input-placeholder { 
+  color: #fff;
+}
+
+form .form-control::-moz-placeholder {
+  color: #fff;
+}
+
+form .form-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+form .form-control:placeholder {
+  color: #fff;
 }
 
 .form-group {
