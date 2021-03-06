@@ -598,3 +598,71 @@ footer {
 }
 }
 
+/* ---------------------------contact.html--------------------------- */
+
+#contact-row {
+    background-color: rgb(211 129 131 / 50%);
+}
+
+#contact-row div {
+    padding: 0;
+    text-align: center;
+}
+
+.contact-intro-box {
+    background-image: url("../images/background-image.jpg");
+    background-size: cover;
+}
+
+.contact-register {
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+}
+
+.contact-item {
+    margin: 0;
+}
+
+.contact-image-cover {
+    background-color: #c47678c7;
+    overflow:hidden;
+}
+
+.contact-image {
+    object-fit: cover;
+}
+
+.contact-image-cover img {
+   object-fit: cover;
+   opacity: 0.8;
+   animation-name:contact-image-zoom;
+   animation-duration:7s;
+   animation-fill-mode:forwards;
+}
+
+@keyframes contact-image-zoom {
+  from{
+    transform:scale(1);
+  }
+  to {
+    transform:scale(1.1);
+  }
+}
+
+.contact-form-heading {
+    color: #a94b50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    padding: 0;
+}
+
+#contact-detail {
+    color: rgb(211 129 131 / 100%);
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+}
