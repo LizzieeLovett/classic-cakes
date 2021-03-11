@@ -71,10 +71,53 @@
             </div>
          </div>
       </section>
-      <!-- Section to provide more detail on the lessons offering and a form to get in contact.-->
+      <!-- Section to provide more detail on the lessons offering, a pricing table and a form to get in contact.-->
       <section>
          <div id="lessons-detail">
             <p>We offer engaging, interactive cake making workshops for groups of up to 16 people. You can choose to either come and learn with us in our shop or we even offer online courses so that you can cook from the comfort of your own kitchen!<br><br>Our workshops are great for hen parties, birthdays or brushing up your skills for a bake sale.<br><br>Prices start from <strong>£15 per person</strong>. Please complete the form below and we'll be in touch to give you more details. </p>
+            <div class="lessons-table">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">Group Size</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Starting Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Classic Cakes Kitchen</td>
+                            <td>£35pp</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Online</td>
+                            <td>£25pp</td>
+                        </tr>
+                        <tr>
+                            <td>2-8</td>
+                            <td>Classic Cakes Kitchen</td>
+                            <td>£30pp</td>
+                        </tr>
+                        <tr>
+                            <td>2-8</td>
+                            <td>Online</td>
+                            <td>£20pp</td>
+                        </tr>
+                        <tr>
+                            <td>9-16</td>
+                            <td>Classic Cakes Kitchen</td>
+                            <td>£25pp</td>
+                        </tr>
+                        <tr>
+                            <td>9-16</td>
+                            <td>Online</td>
+                            <td>£15pp</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
          </div>
          <h3 class="lessons-form-heading">Please complete the form below to register your interest in a cake making workshop:</h3>
          <div class="container lessons-form-container">
@@ -127,13 +170,23 @@
                </div>
                <div class="row">
                   <div class="form-group">
+                     <label for="locationselect">Location</label>
+                     <select class="form-select" id="locationselect">
+                        <option selected>Select...</option>
+                        <option value="1">Classic Cakes Kitchen</option>
+                        <option value="2">Online</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="form-group">
                      <label for="otherinfo">Other Information</label>
                      <textarea class="form-control" id="otherinfo" rows="3" placeholder="Anything else we need to know?"></textarea>  
                   </div>
                </div>
                <div class="row">
                   <div class="form-group lessons-submit-button">
-                     <button type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#lessonsenquirymodal">Enquire Now!</button>
+                     <button type="button" class="btn btn-default form-enquiry" data-bs-toggle="modal" data-bs-target="#lessonsenquirymodal">Enquire Now!</button>
                   </div>
                   <div class="modal" tabindex="-1" id="lessonsenquirymodal">
                      <div class="modal-dialog modal-dialog-centered">
