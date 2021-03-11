@@ -634,6 +634,7 @@ footer {
 }
 
 .contact-image-cover img {
+   width: 100%;
    object-fit: cover;
    opacity: 0.8;
    animation-name:contact-image-zoom;
