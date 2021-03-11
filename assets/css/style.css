@@ -139,7 +139,6 @@ ul {
     color: #fff;
     background-color: rgb(159, 181, 152, 0.9);
     font-size: 150%;
-    margin-top: 20px;
     font-family: 'Pacifico', cursive;
 }
 
@@ -260,7 +259,6 @@ footer {
 }
 
 .footer-column-1 {
-    padding-left: 60px;
     text-align: left;
 }
 
@@ -273,7 +271,6 @@ footer {
 
 .footer-column-2 {
     text-align: center;
-    padding: 0;
 }
 
 .footer-column-2-item {
@@ -282,7 +279,6 @@ footer {
 }
 
 .footer-column-3 {
-    padding-right: 60px;
     text-align: right;
 }
 
