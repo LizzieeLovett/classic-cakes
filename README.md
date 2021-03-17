@@ -54,3 +54,28 @@ The customer goals of this website are:
 5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
 6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
 7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
+
+ 
+## Features
+ 
+All the pages feature a typical **header** that users will be familiar with; a responsive **navigation bar** which includes the Classic Cakes **logo** in the top left and links to the website’s other pages in the top right. 
+They all also feature a **footer** with **telephone contact information** as well as **social media icons** which link to Classic Cakes’ facebook and instagram pages.
+ 
+Each page also includes **headings** relevant to the page on the left third below the header, and either a **hero image** or **hero video** on the right two thirds below the header. 
+The purpose of both the headings and the images/video is to either verbally or visually reinforce the purpose of the page in an eye-catching way that will give a positive emotional response to the user.
+ 
+##### Home
+ 
+The headings on the Home page contain some **compelling copy** which delivers the main message on the page and encourages the user to explore the page further. 
+There is also a **call to action button** here guiding the user to visit the Lessons page.
+ 
+The hero image on the Home page is visible on desktops and tablet devices, as at these larger screen sizes the user can absorb the information they convey. 
+On smaller screen sizes, the hero image is not displayed as this gives a cleaner view of the headings and therefore the purpose of the page, and also reduces the mobile users’ data consumption.
+ 
+The next section of the page details the types of product on offer, using interactive **photographs** as well as **customer reviews** relating to the product they are paired with. 
+On smaller screen sizes, the reviews are not displayed as this would hinder the user’s ability to quickly establish what Classic Cake’s main product offerings are.
+ 
+##### Gallery
+ 
+The Gallery page contains 24 **thumbnail images** laid out at equal distance, the number on each row is adapted to the width of the screen.
+Each thumbnail is circular, is in keeping with the images found on the Home page and features various types of cake on offer.
