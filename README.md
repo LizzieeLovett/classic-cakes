@@ -54,7 +54,6 @@ The customer goals of this website are:
 5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
 6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
 7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
-
  
 ## Features
  
@@ -72,10 +71,58 @@ There is also a **call to action button** here guiding the user to visit the Les
 The hero image on the Home page is visible on desktops and tablet devices, as at these larger screen sizes the user can absorb the information they convey. 
 On smaller screen sizes, the hero image is not displayed as this gives a cleaner view of the headings and therefore the purpose of the page, and also reduces the mobile users’ data consumption.
  
-The next section of the page details the types of product on offer, using interactive **photographs** as well as **customer reviews** relating to the product they are paired with. 
+The next section of the page details the types of product on offer, using interactive **photographs** as well as **testimonials** relating to the product they are paired with. 
 On smaller screen sizes, the reviews are not displayed as this would hinder the user’s ability to quickly establish what Classic Cake’s main product offerings are.
  
 ##### Gallery
  
 The Gallery page contains 24 **thumbnail images** laid out at equal distance, the number on each row is adapted to the width of the screen.
 Each thumbnail is circular, is in keeping with the images found on the Home page and features various types of cake on offer.
+ 
+#### Lessons
+ 
+The headings on the lessons page also contain **compelling copy** and a **call to action** button only this time the button leads the user to the Contact page. 
+On desktops and tablets there is then a **hero video** which autoplays on mute as a background element and reinforces the product offering visually. 
+On mobiles, the hero video is not displayed as this gives a cleaner view of the headings and therefore the purpose of the page, and also reduces the mobile users’ data consumption.
+ 
+There is then a detailed **description** of the product offering followed by a **pricing table**.
+ 
+Finally, a **contact form** specifically for lesson enquiries which has boxes for name, email and phone number, the size of the group they wish to learn in, whether they want to learn online or in the Classic Cakes kitchen and any other information that may be relevant. 
+At the end of the form there is a **Send Button**.
+ 
+##### Contact
+ 
+The Contact page has similar features to the Home page; some headings which have **contact information** including street address, phone number and email address, and a hero image on larger screen sizes which does not display on mobile.
+ 
+This is followed by a **contact form** specifically for enquiring about or ordering cakes which has boxes for name, email and phone number, a dropdown for the cake type the user is interested in and any other information that may be relevant. 
+At the end of the form there is a **Send Button**.
+ 
+### Existing Features
+ 
+- Header Logo - Exists on [every page](../index.html) and allows users to easily recognise the Classic Cakes brand. Clicking the logo returns users to the home page as per convention.
+- Header Navigation Bar - Exists on [every page](../index.html) and allows users to easily navigate each of the website's pages and quickly find what they are looking for.
+- Footer Telephone Contact Information - Exists on [every page](../index.html) and offers a very quick route to speaking to someone in the business.
+- Footer Social Media Icons - Exist on [every page](../index.html) and allow users to access the social platforms of Classic Cakes.
+- Call to Action Buttons - Exist on [every page except gallery.html](../index.html) and guides potential clients through the website to highlight both the lessons and cake making services on offer, before encouraging them to make contact.
+- [Gallery Page](gallery.html) - Allows users to view images of previous Classic Cakes bakes.
+- [Pricing Table](lessons.html) - Allows users to understand the pricing of online vs in kitchen lessons for different group sizes.
+- [Contact Forms](lessons.html, contact.html) - Allows users to make the first step towards becoming potential clients by supplying details and asking questions.
+
+### Features to Implement in future
+- GDPR pop-up - Allows new users of the website to approve or deny the processing of their personal data through cookies. Required to comply with the EU data protection law. Not currently implemented as Javascript is required.
+- CAPTCHAs added to forms - Prevents spam submissions through the forms. Not currently implemented as Javascript is required.
+- Give the form’s send buttons greater feedback - Change *Enquire Now* to *Processing* once clicked and then when complete, to *Enquiry Sent*. Not currently implemented as Javascript is required.
+- COVID19 pop-up - Allows the user to see the latest COVID19 information impacting the business (opening times/hours, response times). Not currently implemented as Javascript is required.
+ 
+## Technologies Used
+ 
+- This project uses HTML and CSS programming languages.
+- [Gitpod](https://Gitpod.io) - The IDE used to create the website for this project was **Gitpod**.
+- [BootstrapCDN](https://www.bootstrapcdn.com/) - This project uses **Bootstrap5** to simplify the structure of the website and make the website more easily responsive.
+- [FontAwesome](https://fontawesome.com/) - This project uses **Font Awesome** to add icons to the website.
+- [Google Fonts](https://fonts.google.com/) - This project uses **Google fonts** to style the website fonts.
+- [cdnjs](https://cdnjs.cloudflare.com/) - This project uses **cdnjs** to reference Javascript needed for the responsive footer.
+- [Popper](https://popper.js.org/) - This project uses **Popper.js** to reference Javascript needed for the responsive navbar.
+- [W3C](https://validator.w3.org/) - This project used the **W3C** validator to ensure the HTML used was valid before deployment.
+- [W3C](https://jigsaw.w3.org/css-validator/) - This project used the **W3C CSS** validator to ensure the CSS used was valid before deployment.
+- [Free Formatter](https://www.freeformatter.com/) - This project used the **Free Formatter** website to make each file in the website uniformly presented.
