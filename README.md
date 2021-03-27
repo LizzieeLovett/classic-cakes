@@ -10,6 +10,8 @@ For this website, the primary goal is to persuade potential customers to make co
 This website tries to allow the potential customer to find all the information that they need to make a decision to visit the shop by breaking the information into relevant 
 pages and making it clear and easy to contact the shop in a number of ways.
 
+![Mockup image](assets/images/readme-images/mockup.jpg)
+
 The business goals of this website are:
 * To build brand awareness.
 * To provide high quality examples of the shop’s range and style
@@ -43,7 +45,7 @@ The customer goals of this website are:
 * Other local cake shop websites contain far too much content and therefore produce information overload quickly.
 * This website is:
    * Intuitive and easy to navigate.
-   * Able to guides the client through all the relevant information in a way that is easy to understand.
+   * Able to guide the client through all the relevant information in a way that is easy to understand.
    * Able to guide them to the goal of the website - to fill out either the lessons or contact form.
 
 ##### Client stories
@@ -55,6 +57,8 @@ The customer goals of this website are:
 6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
 7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
  
+##### Wireframe mockups: 
+
 ## Features
  
 All the pages feature a typical **header** that users will be familiar with; a responsive **navigation bar** which includes the Classic Cakes **logo** in the top left and links to the website’s other pages in the top right. 
@@ -130,3 +134,50 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 ## Testing 
  
 Testing information can be found in this separate [TESTING.md file](TESTING.md)
+
+## Deployment
+ 
+This project was developed using the [Gitpod IDE](https://Gitpod.io). Changes were committed to git and subsequently pushed to GitHub using Gitpod.
+To deploy [this website](https://GitHub.com/LizzieeLovett/classic-cakes) to GitHub Pages, the following steps were taken:
+Log into GitHub.
+Select the repository **LizzieeLovett/classic-cakes**.
+From the menu underneath the repository name, select **Settings**.
+Find the **GitHub Pages** section near the end of the page.
+Change the **Source** dropdown from **None** to **Master Branch**.
+The page was refreshed and the website was deployed.
+Back in the **GitHub Pages** section the link to the deployed website was retrieved. 
+ 
+### How to run this project locally
+ 
+To clone this project in Gitpod you will need:
+1. A GitHub account. [Create a GitHub account here] (https://GitHub.com/)
+2. A Gitpod account. [Create a Gitpod account here](https://Gitpod.com)
+3. Access to the Chrome browser 
+ 
+Then take the following steps:
+1. Install the [Gitpod Browser Extension for Chrome](https://www.Gitpod.io/docs/browser-extension/)
+2. Once installation has completed, restart the browser
+3. Log into [Gitpod](https://Gitpod.com).
+4. Log into [GitHub](https://GitHub.com/)
+5. Navigate to the [Project GitHub repository](https://GitHub.com/LizzieeLovett/classic-cakes)
+6. Underneath the repository name and menu on the right hand side, press the green "Gitpod" button.
+7. This will create a **new Gitpod workspace** from the code in GitHub where you can work locally.
+ 
+To work on the code locally using any other IDE, please find some information from GitHub [here](https://help.GitHub.com/en/articles/cloning-a-repository).
+ 
+## Credits
+ 
+### Media
+- The photos and videos used in this site were obtained from various free stock photo websites such as [Pexels](https://www.pexels.com), [Unsplash](https://unsplash.com) and [Shutterstock](https://www.shutterstock.com).
+ 
+### Code
+ 
+- The CSS code for altering the appearance of the [placeholder](https://www.w3schools.com/cssref/sel_placeholder.asp) and [arrow number](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp) on the forms on the lessons.html and contact.html pages was taken from W3Schools.
+ 
+### Acknowledgements
+ 
+- I wish to thank [Anna Gilhespy](https://github.com/AJGreaves) for permitting code institute students the use of the README file in one of her [projects](https://github.com/AJGreaves/portrait-artist) as a guide for for writing our own documents. 
+ 
+#### Disclaimer
+ 
+The content of this website is for educational purposes only and the business Classic Cakes is entirely fictitious.
