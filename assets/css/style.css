@@ -498,8 +498,8 @@ footer {
     transform: scale(1.2); 
 }
   .hero-image-cover img {
-      margin-left: -125px;
-      max-height: 700px;
+      margin-left: -50px;
+      max-height: 750px;
   }
 }
 

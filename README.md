@@ -50,7 +50,7 @@ The customer goals of this website are:
 1. As a new visitor to the website, I want to easily navigate around the site to find what I’m looking for as quickly as possible.
 2. As a new visitor to the website, I want to view a gallery of prior work to decide if I like the style for myself.
 3. As a new visitor to the website, I want to see whether other customers have liked the cakes they purchased and the related service received.
-4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to learn and pay.
+4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to pay.
 5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
 6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
 7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
@@ -88,14 +88,14 @@ On mobiles, the hero video is not displayed as this gives a cleaner view of the 
 There is then a detailed **description** of the product offering followed by a **pricing table**.
  
 Finally, a **contact form** specifically for lesson enquiries which has boxes for name, email and phone number, the size of the group they wish to learn in, whether they want to learn online or in the Classic Cakes kitchen and any other information that may be relevant. 
-At the end of the form there is a **Send Button**.
+At the end of the form there is a **Send Button** which triggers a **modal** to appear when clicked.
  
 ##### Contact
  
 The Contact page has similar features to the Home page; some headings which have **contact information** including street address, phone number and email address, and a hero image on larger screen sizes which does not display on mobile.
  
 This is followed by a **contact form** specifically for enquiring about or ordering cakes which has boxes for name, email and phone number, a dropdown for the cake type the user is interested in and any other information that may be relevant. 
-At the end of the form there is a **Send Button**.
+At the end of the form there is a **Send Button** which triggers a **modal** to appear when clicked.
  
 ### Existing Features
  
