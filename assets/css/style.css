@@ -463,6 +463,9 @@ footer {
   .hero-image-cover {
       display: none;
   }
+  .cake-testimonial-box {
+      display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -473,7 +476,9 @@ footer {
       display: none;
   }
   .cake-testimonial-box {
-      display: none;
+      width: 215px;
+      height: 325px;
+      font-size: 14px;
   }
   .hero-image-cover img {
       margin-left: -225px;
@@ -498,8 +503,14 @@ footer {
     transform: scale(1.2); 
 }
   .hero-image-cover img {
+      margin-left: -225px;
+      max-height: 775px;
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  .hero-image-cover img {
       margin-left: -50px;
-      max-height: 750px;
   }
 }
 

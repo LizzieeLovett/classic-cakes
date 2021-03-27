@@ -1,6 +1,6 @@
 # Classic Cakes
 
-## Cake Shop
+## Overview
 
 A website for a small local cake shop owner based in Northamptonshire.
 The website features a home page with information about the shop and testimonials, a gallery of prior work, a page to enquire about baking lessons including video examples 
@@ -126,3 +126,7 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - [W3C](https://validator.w3.org/) - This project used the **W3C** validator to ensure the HTML used was valid before deployment.
 - [W3C](https://jigsaw.w3.org/css-validator/) - This project used the **W3C CSS** validator to ensure the CSS used was valid before deployment.
 - [Free Formatter](https://www.freeformatter.com/) - This project used the **Free Formatter** website to make each file in the website uniformly presented.
+
+## Testing 
+ 
+Testing information can be found in this separate [TESTING.md file](TESTING.md)
