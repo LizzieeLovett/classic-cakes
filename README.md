@@ -119,17 +119,30 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - COVID19 pop-up - Allows the user to see the latest COVID19 information impacting the business (opening times/hours, response times). Not currently implemented as Javascript is required.
  
 ## Technologies Used
- 
-- This project uses HTML and CSS programming languages.
-- [Gitpod](https://Gitpod.io) - The IDE used to create the website for this project was **Gitpod**.
+
+### Languages
+- HTML5 is used to provide the basic structure of the website.
+- CSS3 is used to provide the majority of the styling for the website.
+- JavaScript elements are used via Bootstrap, Cloudflare and Popper.
+
+### Libraries and Frameworks
+- [Bootstrap 5](https://getbootstrap.com/) This project uses **Bootstrap 5** to simplify the structure of the website and make the website more easily responsive.
 - [BootstrapCDN](https://www.bootstrapcdn.com/) - This project uses **Bootstrap5** to simplify the structure of the website and make the website more easily responsive.
-- [FontAwesome](https://fontawesome.com/) - This project uses **Font Awesome** to add icons to the website.
-- [Google Fonts](https://fonts.google.com/) - This project uses **Google fonts** to style the website fonts.
+- [Google Fonts](https://fonts.google.com/) - This project uses **Google fonts** to style the website fonts. Pacifico was used for the logo and certain headings and Open Sans for everything else.
+- [Font Awesome](https://fontawesome.com/) - This project uses **Font Awesome** to add icons to the website.
 - [cdnjs](https://cdnjs.cloudflare.com/) - This project uses **cdnjs** to reference Javascript needed for the responsive footer.
 - [Popper](https://popper.js.org/) - This project uses **Popper.js** to reference Javascript needed for the responsive navbar.
+
+### Tools
+- [Git](https://git-scm.com/)/[GitHub](https://github.com/) - The project used **Git** and **GitHub** for version control and repository storage.
+- [Gitpod](https://Gitpod.io) - The IDE used to create the website for this project was **Gitpod**.
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - This project used **Chrome Dev Tools** for responsiveness testing and bug fixing.
 - [W3C](https://validator.w3.org/) - This project used the **W3C** validator to ensure the HTML used was valid before deployment.
 - [W3C](https://jigsaw.w3.org/css-validator/) - This project used the **W3C CSS** validator to ensure the CSS used was valid before deployment.
 - [Free Formatter](https://www.freeformatter.com/) - This project used the **Free Formatter** website to make each file in the website uniformly presented.
+
+### Other Resources
+- [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to set up the repository.
 
 ## Testing 
  
