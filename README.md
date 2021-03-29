@@ -3,7 +3,7 @@
 ## Overview
 
 A website for a small local cake shop owner based in Northamptonshire.
-The website features a home page with information about the shop and testimonials, a gallery of prior work, a page to enquire about baking lessons including video examples 
+The website features a home page with information about the shop and testimonials, a gallery of prior work, a page to enquire about baking lessons including a video example 
 and a contact page with location details and a form for general enquiries.
 For this website, the primary goal is to persuade potential customers to make contact with the shop via the lessons or contact page.
 
@@ -11,6 +11,10 @@ This website tries to allow the potential customer to find all the information t
 pages and making it clear and easy to contact the shop in a number of ways.
 
 ![Mockup image](assets/images/readme-images/mockup.jpg)
+
+## UX
+
+### **Strategy**
 
 The business goals of this website are:
 * To build brand awareness.
@@ -24,23 +28,19 @@ The customer goals of this website are:
 * To intuitively navigate to the lessons page and fill out the enquiry form to improve baking skills.
 * To intuitively navigate to the contact page to find the store location.
 
-## UX
-
-#### Ideal client
-
-##### The ideal client for this business is:
-* Living in Northamptonshire.
-* Someone who regularly throws catered events.
-* A cake lover.
-* Engaged to be married.
-
-##### Visitors to this website are searching for:
+Visitors to this website are searching for:
 * A business to design and create a beautiful wedding cake for their special day.
 * A birthday cake for a family member.
 * Cupcake trays for special events or parties.
 * Lessons to help improve their baking skills.
 
-##### This project is the best way to help them achieve these things because:
+The ideal client for this business is:
+* Living in Northamptonshire.
+* Someone who regularly throws catered events.
+* A cake lover.
+* Engaged to be married.
+
+This website is the best way to help them achieve these things because:
 * Most local cake shop websites have extremely poor UX.
 * Other local cake shop websites contain far too much content and therefore produce information overload quickly.
 * This website is:
@@ -48,7 +48,8 @@ The customer goals of this website are:
    * Able to guide the client through all the relevant information in a way that is easy to understand.
    * Able to guide them to the goal of the website - to fill out either the lessons or contact form.
 
-##### Client stories
+#### Client stories
+
 1. As a new visitor to the website, I want to easily navigate around the site to find what I’m looking for as quickly as possible.
 2. As a new visitor to the website, I want to view a gallery of prior work to decide if I like the style for myself.
 3. As a new visitor to the website, I want to see whether other customers have liked the cakes they purchased and the related service received.
@@ -56,8 +57,18 @@ The customer goals of this website are:
 5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
 6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
 7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
- 
+
 ##### Wireframe mockups: 
+
+### **Scope**
+
+Based on the simple customer and business goals of Classic Cakes, the scope of the project and the features available needed to be fairly narrow so as not to overcomplicate and confuse the user.
+
+#### Initial Feature Plan
+
+* Gallery of **images** to convey the quality of work to the user.
+* **Compelling copy** introducing the more novel idea of cake making lessons to the user.
+* A contact form allowing the user to provide detailed descriptions of their request.
 
 ## Features
  
@@ -101,7 +112,7 @@ The Contact page has similar features to the Home page; some headings which have
 This is followed by a **contact form** specifically for enquiring about or ordering cakes which has boxes for name, email and phone number, a dropdown for the cake type the user is interested in and any other information that may be relevant. 
 At the end of the form there is a **Send Button** which triggers a **modal** to appear when clicked.
  
-### Existing Features
+### **Existing Features**
  
 - Header Logo - Exists on [every page](../index.html) and allows users to easily recognise the Classic Cakes brand. Clicking the logo returns users to the home page as per convention.
 - Header Navigation Bar - Exists on [every page](../index.html) and allows users to easily navigate each of the website's pages and quickly find what they are looking for.
@@ -112,7 +123,7 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - [Pricing Table](lessons.html) - Allows users to understand the pricing of online vs in kitchen lessons for different group sizes.
 - [Contact Forms](lessons.html, contact.html) - Allows users to make the first step towards becoming potential clients by supplying details and asking questions.
 
-### Features to Implement in future
+### **Features to Implement in future**
 - GDPR pop-up - Allows new users of the website to approve or deny the processing of their personal data through cookies. Required to comply with the EU data protection law. Not currently implemented as Javascript is required.
 - CAPTCHAs added to forms - Prevents spam submissions through the forms. Not currently implemented as Javascript is required.
 - Give the form’s send buttons greater feedback - Change *Enquire Now* to *Processing* once clicked and then when complete, to *Enquiry Sent*. Not currently implemented as Javascript is required.
@@ -120,12 +131,12 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
  
 ## Technologies Used
 
-### Languages
+#### Languages
 - HTML5 is used to provide the basic structure of the website.
 - CSS3 is used to provide the majority of the styling for the website.
 - JavaScript elements are used via Bootstrap, Cloudflare and Popper.
 
-### Libraries and Frameworks
+#### Libraries and Frameworks
 - [Bootstrap 5](https://getbootstrap.com/) This project uses **Bootstrap 5** to simplify the structure of the website and make the website more easily responsive.
 - [BootstrapCDN](https://www.bootstrapcdn.com/) - This project uses **Bootstrap5** to simplify the structure of the website and make the website more easily responsive.
 - [Google Fonts](https://fonts.google.com/) - This project uses **Google fonts** to style the website fonts. Pacifico was used for the logo and certain headings and Open Sans for everything else.
@@ -133,7 +144,7 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - [cdnjs](https://cdnjs.cloudflare.com/) - This project uses **cdnjs** to reference Javascript needed for the responsive footer.
 - [Popper](https://popper.js.org/) - This project uses **Popper.js** to reference Javascript needed for the responsive navbar.
 
-### Tools
+#### Tools
 - [Git](https://git-scm.com/)/[GitHub](https://github.com/) - The project used **Git** and **GitHub** for version control and repository storage.
 - [Gitpod](https://Gitpod.io) - The IDE used to create the website for this project was **Gitpod**.
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - This project used **Chrome Dev Tools** for responsiveness testing and bug fixing.
@@ -141,7 +152,7 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - [W3C](https://jigsaw.w3.org/css-validator/) - This project used the **W3C CSS** validator to ensure the CSS used was valid before deployment.
 - [Free Formatter](https://www.freeformatter.com/) - This project used the **Free Formatter** website to make each file in the website uniformly presented.
 
-### Other Resources
+#### Other Resources
 - [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to set up the repository.
 
 ## Testing 
