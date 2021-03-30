@@ -12,6 +12,15 @@ a {
     text-decoration: none;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
+.container-fluid {
+    padding-right: var(--bs-gutter-x,0);
+    padding-left: var(--bs-gutter-x,0);
+}
+
 form {
     color: rgb(211 129 131 / 100%);
     text-align: left;
@@ -552,6 +561,7 @@ footer {
 
 #lessons-row {
     background-color: rgb(211 129 131 / 50%);
+    width: 100%;
 }
 
 #lessons-row div {
