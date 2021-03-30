@@ -60,6 +60,20 @@ This website is the best way to help them achieve these things because:
 
 ##### Wireframe mockups: 
 
+Wireframes First Drafts:
+
+* [Home](assets/images/readme-images/wireframe-draft-home.jpg)
+* [Gallery](assets/images/readme-images/wireframe-draft-gallery.jpg)
+* [Lessons](assets/images/readme-images/wireframe-draft-lessons.jpg)
+* [Contact](assets/images/readme-images/wireframe-draft-contact.jpg)
+
+Wireframes Final Versions:
+
+* [Home](assets/images/readme-images/wireframe-final-home.jpg)
+* [Gallery](assets/images/readme-images/wireframe-final-gallery.jpg)
+* [Lessons](assets/images/readme-images/wireframe-final-lessons.jpg)
+* [Contact](assets/images/readme-images/wireframe-final-contact.jpg)
+
 ### **Scope**
 
 Based on the simple customer and business goals of Classic Cakes, the scope of the project and the features available needed to be fairly narrow so as not to overcomplicate and confuse the user.
