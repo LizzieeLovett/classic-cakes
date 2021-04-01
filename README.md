@@ -183,14 +183,14 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
  
 #### Sprint 1 Features
  
-- Header Logo - Exists on [every page](../index.html) and allows users to easily recognise the Classic Cakes brand. Clicking the logo returns users to the home page as per convention.
-- Header Navigation Bar - Exists on [every page](../index.html) and allows users to easily navigate each of the website's pages and quickly find what they are looking for.
-- Footer Telephone Contact Information - Exists on [every page](../index.html) and offers a very quick route to speaking to someone in the business.
-- Footer Social Media Icons - Exist on [every page](../index.html) and allow users to access the social platforms of Classic Cakes.
-- Call to Action Buttons - Exist on [every page except gallery.html](../index.html) and guides potential clients through the website to highlight both the lessons and cake making services on offer, before encouraging them to make contact.
-- [Gallery Page](gallery.html) - Allows users to view images of previous Classic Cakes bakes.
-- [Pricing Table](lessons.html) - Allows users to understand the pricing of online vs in kitchen lessons for different group sizes.
-- [Contact Forms](lessons.html, contact.html) - Allows users to make the first step towards becoming potential clients by supplying details and asking questions.
+- Header Logo - Exists on every page and allows users to easily recognise the Classic Cakes brand. Clicking the logo returns users to the home page as per convention.
+- Header Navigation Bar - Exists on every page and allows users to easily navigate each of the website's pages and quickly find what they are looking for.
+- Footer Telephone Contact Information - Exists on every page and offers a very quick route to speaking to someone in the business.
+- Footer Social Media Icons - Exist on every page and allow users to access the social platforms of Classic Cakes.
+- Call to Action Buttons - Exist on every page except gallery.html and guides potential clients through the website to highlight both the lessons and cake making services on offer, before encouraging them to make contact.
+- Gallery Page - Allows users to view images of previous Classic Cakes bakes.
+- Pricing Table - Allows users to understand the pricing of online vs in kitchen lessons for different group sizes.
+- Contact Forms - Allows users to make the first step towards becoming potential clients by supplying details and asking questions.
 
 #### Sprint 2 Features (Future)
 

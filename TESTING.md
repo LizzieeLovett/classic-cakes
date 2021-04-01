@@ -2,7 +2,7 @@
 
 [Main README.md file](/README.md)
 
-[View website in GitHub Pages](https://github.com/LizzieeLovett/classic-cakes)
+[View website in GitHub Pages](https://lizzieelovett.github.io/classic-cakes/)
 
 ## Testing
 
