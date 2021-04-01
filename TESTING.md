@@ -21,29 +21,29 @@ The typical path through this website would be:
 
 ### Testing client stories from UX section of README.md
 
-1. As a new visitor to the website, I want to easily navigate around the site to find what I’m looking for as quickly as possible.
+1. As a new visitor to the website, I want to easily navigate around the site so that I can find what I’m looking for as quickly as possible.
     1. The navigation bar has the same design, and can be easily found at the top of each page of the website.
     2. The logo has the same design and can also be easily found, as well as linking to the Home page to reorient any users who want to return to the typical starting point.
     3. The page names used are fairly typical across most websites so users should be able to immediately infer the content each page should contain.
     
-2. As a new visitor to the website, I want to view a gallery of prior work to decide if I like the style for myself.
+2. As a new visitor to the website, I want to view a gallery of prior work so that I can decide if I like the style for myself.
     1. The Home page uses images of prior work to describe the type of product available.
     2. The navigation bar contains clear reference to a Gallery page where users can review images of prior work.
     
-3. As a new visitor to the website, I want to see whether other customers have liked the cakes they purchased and the related service received.
+3. As a new visitor to the website, I want to see testimonials from other customers so that I can see whether they liked the cakes they purchased and the related service received.
     1. The Home page utilises testimonials from past clients and associates them with the type of product they’re reviewing making them easy to understand.
 
-4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to pay.
+4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to pay so that I can decide if I want to book lessons.
     1. On the Lessons page there are details about the format of the lessons.
     2. Also on the Lessons page there is a pricing table covering all available options.
 
 5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
     1. The form on the Lessons page is broken down into common items (First Name, Last Name, Email, etc.) which a typical user should have no problem with, and the less common items (Group Size, Location) are drop down items to make the experience much easier for the user.
 
-6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
+6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order so that I can get the product I have in mind.
     1. The form on the Contact page allows the user to specify the type of cake they’re interested in as well as providing an “Other Information” section for them to provide as much detail as they like.
     
-7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
+7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in so that I can get what I need as quickly as possible.
     1. The navigation bar at the top of the page provides quick and easy access to the Contact page.
 
 

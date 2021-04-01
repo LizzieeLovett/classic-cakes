@@ -72,13 +72,13 @@ This website is the best way to help them achieve these things because:
 
 #### Client stories
 
-1. As a new visitor to the website, I want to easily navigate around the site to find what I’m looking for as quickly as possible.
-2. As a new visitor to the website, I want to view a gallery of prior work to decide if I like the style for myself.
-3. As a new visitor to the website, I want to see whether other customers have liked the cakes they purchased and the related service received.
-4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to pay.
+1. As a new visitor to the website, I want to easily navigate around the site so that I can find what I’m looking for as quickly as possible.
+2. As a new visitor to the website, I want to view a gallery of prior work so that I can decide if I like the style for myself.
+3. As a new visitor to the website, I want to see testimonials from other customers so that I can see whether they liked the cakes they purchased and the related service received.
+4. As a new visitor to the website, I want to know what the baking lessons entail and what I can expect to pay so that I can decide if I want to book lessons.
 5. As an interested client, I want to understand how to fill out the lessons form so that I can book in with the owner.
-6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order.
-7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in.
+6. As an interested client, I want to understand how to fill out the contact form with as much detail as I want to give about my order so that I can get the product I have in mind.
+7. As a returning visitor to the website, I want to easily navigate to the contact page to put details of a new request in so that I can get what I need as quickly as possible.
 
 ### **Scope**
 
