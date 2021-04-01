@@ -26,6 +26,7 @@ pages and making it clear and easy to contact the shop in a number of ways.
     * [Other Resources](#other-resources)
 1. [Testing](#testing)
 1. [Deployment](#deployment)
+    * [Deploying the Project](#deploying-the-project)
     * [How to Run This Project Locally](#how-to-run-this-project-locally)
 1. [Credits](#credits)
     * [Media](#media)
@@ -254,15 +255,17 @@ Testing information can be found in this separate [TESTING.md file](TESTING.md)
 
 ## Deployment
  
+ ### Deploying the Project
+
 This project was developed using the [Gitpod IDE](https://Gitpod.io). Changes were committed to git and subsequently pushed to GitHub using Gitpod.
 To deploy [this website](https://GitHub.com/LizzieeLovett/classic-cakes) to GitHub Pages, the following steps were taken:
-Log into GitHub.
-Select the repository **LizzieeLovett/classic-cakes**.
-From the menu underneath the repository name, select **Settings**.
-Find the **GitHub Pages** section near the end of the page.
-Change the **Source** dropdown from **None** to **Master Branch**.
-The page was refreshed and the website was deployed.
-Back in the **GitHub Pages** section the link to the deployed website was retrieved. 
+1. Log into GitHub.
+2. Select the repository **LizzieeLovett/classic-cakes**.
+3. From the menu underneath the repository name, select **Settings**.
+4. Find the **GitHub Pages** section near the end of the page.
+5. Change the **Source** dropdown from **None** to **Master Branch**.
+6. The page was refreshed and the website was deployed.
+7. Back in the **GitHub Pages** section the link to the deployed website was retrieved. 
  
 ### How to run this project locally
  
