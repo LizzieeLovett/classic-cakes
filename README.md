@@ -12,6 +12,27 @@ pages and making it clear and easy to contact the shop in a number of ways.
 
 ![Mockup image](assets/images/readme-images/mockup.jpg)
 
+# Index
+1. [UX](#ux)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+    * [Surface](#surface)
+1. [Technologies Used](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries and Frameworks](#libraries-and-frameworks)
+    * [Tools](#tools)
+    * [Other Resources](#other-resources)
+1. [Testing](#testing)
+1. [Deployment](#deployment)
+    * [How to Run This Project Locally](#how-to-run-this-project-locally)
+1. [Credits](#credits)
+    * [Media](#media)
+    * [Code](#code)
+    * [Acknowledgements](#acknowledgements)
+    * [Disclaimer](#disclaimer)
+
 ## UX
 
 ### **Strategy**
@@ -72,23 +93,23 @@ These items must be completed for initial release:
 
 ### **Structure**
 
-Consistency, Predictability and Learnability:
+#### Consistency Predictability and Learnability:
 
 This website will follow convention for its navigational elements. Predictably, these will be found at the top of the browser window on any screen size and will be consistent in their coloring and design.
 Consistency will also be applied to headings and any other relevant information a user may need to understand quickly when visiting a page for the first time.
 This will give the website a high learnability and will be largely intuitive for moving through the content even if they don't wish to follow the linear arrangement of the pages. 
 
-Visibility:
+#### Visibility:
 
 The website will employ content hinting as part of its design on each page so as to encourage users to scroll to gain more detail, and more importantly for the business owner, complete a form.
 
-Feedback:
+#### Feedback:
 
 Feedback will also be added to the website for links where possible as well as the submission button for the planned contact form. The form will also provide feedback should there be an error with any of the form entries.
 
 ### **Skeleton**
 
-##### Wireframe mockups: 
+#### Wireframe mockups: 
 
 Wireframes First Drafts:
 
@@ -225,6 +246,7 @@ Letter spacing and font size was utilised to make headings stand out despite bei
 #### Other Resources
 - [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to set up the repository.
 - [TechSini](https://techsini.com/multi-mockup/) - This project used **TechSini Multi Mockup** to generate the mockup images used in this README.
+- [Balsamiq](https://balsamiq.com/wireframes/) - This project used **Balsamiq** to create the draft and final wireframes.
 
 ## Testing 
  
@@ -272,7 +294,8 @@ To work on the code locally using any other IDE, please find some information fr
 ### Acknowledgements
  
 - I wish to thank [Anna Gilhespy](https://github.com/AJGreaves) for permitting code institute students the use of the README file in one of her [projects](https://github.com/AJGreaves/portrait-artist) as a guide for for writing our own documents. 
+This was invaluable for writing my first README file.
  
-#### Disclaimer
+### Disclaimer
  
 The content of this website is for educational purposes only and the business Classic Cakes is entirely fictitious.
