@@ -111,7 +111,7 @@ The typical path through this website would be:
     3. Click on the “Make it for me!” call to action text to verify that it links to the correct page. 
 
 3. Hero video:
-    1. Repeat verification steps done for the hero image on the Home page. _During testing the hero video was not appearing in the Chrome browser despite appearing fine in the Gitpod IDE. To fix this..._
+    1. Repeat verification steps done for the hero image on the Home page. _During testing the hero video was not appearing in the Chrome browser despite appearing fine in the Gitpod IDE. My mentor Miguel helped me fix this as he figured out that although my path to the video was not entirely correct, Gitpod was able to compensate and display the video anyway. I corrected the path and now the video shows in all browsers._
     2. Verify that the video autoplays on mute and continues to loop.
 
 3. Pricing table: 
