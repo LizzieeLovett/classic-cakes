@@ -173,6 +173,32 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - Give the form’s send buttons greater feedback - Change *Enquire Now* to *Processing* once clicked and then when complete, to *Enquiry Sent*. Not currently implemented as Javascript is required.
 - COVID19 pop-up - Allows the user to see the latest COVID19 information impacting the business (opening times/hours, response times). Not currently implemented as Javascript is required.
  
+### **Surface**
+
+#### Colour Scheme
+
+Initially the website had a purple-based colour scheme as purple can convey extravagence and royalty which fits the high-end branding of Classic Cakes.
+However, when it came to collecting appropriate imagery for the website, the vast majority of images available were better suited to a pink-based scheme. 
+I felt that it was more important to have a cohesive, consistent website with an appropriate colour scheme and pink most closely matched the original designs.
+
+#### Typography
+
+Both fonts used in the website were from Google Fonts.
+
+Logo and Call to Action buttons - **"Pacifico"**:
+
+![Pacifico](assets/images/readme-images/pacifico.png)
+
+The handwritten feel of this font is very much on brand for a classic, high-end business. 
+However, the font was not clear enough to use across all headings as it was only available in a font weight of 400.
+
+All other text - **"Montserrat"**:
+
+![Montserrat](assets/images/readme-images/montserrat.png)
+
+This simple sans-serif font allowed for easy reading, even on the smallest screen sizes.
+Letter spacing and font size was utilised to make headings stand out despite being the same font as the rest of the body.
+
 ## Technologies Used
 
 #### Languages
