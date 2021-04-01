@@ -112,13 +112,15 @@ The typical path through this website would be:
 
 3. Hero video:
     1. Repeat verification steps done for the hero image on the Home page. _During testing the hero video was not appearing in the Chrome browser despite appearing fine in the Gitpod IDE. My mentor Miguel helped me fix this as he figured out that although my path to the video was not entirely correct, Gitpod was able to compensate and display the video anyway. I corrected the path and now the video shows in all browsers._
-    2. Verify that the video autoplays on mute and continues to loop.
+    2. Verify that the video autoplays on mute and continues to loop. _As noted in the Implemented Features section of the README, the option for users to control the playback of the video has intentionally not been provided here. 
+The video is short, muted and loops and is part of the design of the page layout, rather than an embedded feature for users to interact with._
 
 3. Pricing table: 
     1. Reduce and expand the width of the window to verify that the table responds as expected.
     
 4. Lessons form: 
-    1. Try to submit the empty form to verify that an error message about the required fields appears. _During testing there was no error message, this was fixed by adding required attributes and changing the button type to submit. However, the success modal still appears. Need Javascript to improve the feedback to the user._
+    1. Try to submit the empty form to verify that an error message about the required fields appears. _During testing there was no error message, this was fixed by adding required attributes and changing the button type to submit. 
+    However, the success modal still appears. Javascript is required to improve the feedback to the user and not send conflicting messages. As Javascript is outside the scope of this project, this error is planned to be fixed in Sprint 2._
     2. Try to submit the form with an invalid email address to verify that a relevant error message appears.
     3. Try to submit the form with all inputs valid and verify that a success message appears.
     4. Reduce and expand the width of the window to verify that the page behaves as expected.

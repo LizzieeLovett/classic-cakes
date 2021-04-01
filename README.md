@@ -25,6 +25,7 @@ pages and making it clear and easy to contact the shop in a number of ways.
     * [Tools](#tools)
     * [Other Resources](#other-resources)
 1. [Testing](#testing)
+1. [Challenges and Reflections](#challenges-and-reflections)
 1. [Deployment](#deployment)
     * [Deploying the Project](#deploying-the-project)
     * [How to Run This Project Locally](#how-to-run-this-project-locally)
@@ -164,6 +165,8 @@ Each thumbnail is circular, is in keeping with the images found on the Home page
  
 The headings on the lessons page also contain **compelling copy** and a **call to action** button only this time the button leads the user to the Contact page. 
 On desktops and tablets there is then a **hero video** which autoplays on mute as a background element and reinforces the product offering visually. 
+The option for users to control the playback of the video has intentionally not been provided. 
+The video is short, muted and loops and is part of the design of the page layout, rather than an embedded feature for users to interact with.
 On mobiles, the hero video is not displayed as this gives a cleaner view of the headings and therefore the purpose of the page, and also reduces the mobile users’ data consumption.
  
 There is then a detailed **description** of the product offering followed by a **pricing table**.
@@ -190,9 +193,13 @@ At the end of the form there is a **Send Button** which triggers a **modal** to 
 - [Contact Forms](lessons.html, contact.html) - Allows users to make the first step towards becoming potential clients by supplying details and asking questions.
 
 #### Sprint 2 Features (Future)
+
+Javascript is outside of the scope of this project and therefore the following features are planned for Sprint 2:
+
 - GDPR pop-up - Allows new users of the website to approve or deny the processing of their personal data through cookies. Required to comply with the EU data protection law. Not currently implemented as Javascript is required.
 - CAPTCHAs added to forms - Prevents spam submissions through the forms. Not currently implemented as Javascript is required.
-- Give the form’s send buttons greater feedback - Change *Enquire Now* to *Processing* once clicked and then when complete, to *Enquiry Sent*. Not currently implemented as Javascript is required.
+- Give the forms’ send buttons greater feedback - Change *Enquire Now* to *Processing* once clicked and then when complete, to *Enquiry Sent*. Not currently implemented as Javascript is required.
+- Fix error and modal relationship on forms where a user submits a form item in the incorrect format. Currently the modal for success will show on **any** submission. Javascript is required.
 - COVID19 pop-up - Allows the user to see the latest COVID19 information impacting the business (opening times/hours, response times). Not currently implemented as Javascript is required.
  
 ### **Surface**
@@ -253,6 +260,17 @@ Letter spacing and font size was utilised to make headings stand out despite bei
  
 Testing information can be found in this separate [TESTING.md file](TESTING.md)
 
+## Challenges and Reflections
+
+The challenges faced in this project were largely a result of my inexperience in working to build a website and writing the documentation that must accompany it.
+
+I particularly struggled with achieving the layout I wanted on each page using Bootstrap and ensuring that it looked great on all screen sizes. 
+Figuring out what worked (and what didn't) was a steep learning curve that has now plateaued and would be much easier to implement in future projects.
+
+Having never written any supporting documentation as part of my Code Institute course before this project, working out which information was valuable was time consuming. 
+Reviewing files from other people's projects as well as material from Code Institute helped shape this README document. 
+Whilst I'm sure I will learn more from feedback on this project, I will feel a lot more confident writing supporting information for future projects.
+
 ## Deployment
  
  ### Deploying the Project
@@ -296,7 +314,9 @@ To work on the code locally using any other IDE, please find some information fr
  
 ### Acknowledgements
  
-- I wish to thank [Anna Gilhespy](https://github.com/AJGreaves) for permitting code institute students the use of the README file in one of her [projects](https://github.com/AJGreaves/portrait-artist) as a guide for for writing our own documents. 
+- I want to thank my mentor Miguel Martinez for all his help and guidance during my time working on this project. 
+His experience and feedback really helped me understand how everything I'd learned on the course should tie together to create a cohesive website.
+- I also wish to thank [Anna Gilhespy](https://github.com/AJGreaves) for permitting code institute students the use of the README file in one of her [projects](https://github.com/AJGreaves/portrait-artist) as a guide for for writing our own documents. 
 This was invaluable for writing my first README file.
  
 ### Disclaimer
